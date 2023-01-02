@@ -105,6 +105,7 @@ public class Variable {
 		
 		
 		// printf를 이요한 출력
+		// 같은 값이라도 다른 형식으로 출력하고 싶을 때 사용
 		
 		
 		
