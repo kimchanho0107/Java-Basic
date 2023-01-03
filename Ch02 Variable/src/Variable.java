@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 
 public class Variable {
 
@@ -106,7 +108,48 @@ public class Variable {
 		
 		// printf를 이요한 출력
 		// 같은 값이라도 다른 형식으로 출력하고 싶을 때 사용
+		// %d(10진 정수) %x(16진 정수) %f(부동 소수점) %c(문자) %s(문자열)
+		// %e(지수형태) %g(값을 간략하게)
 		
+		
+		
+		// 화면으로부터 입력받기
+		// import java.util.Scanner; // Scanner클래스를 사용하기위해 추가
+		
+		Scanner scanner = new Scanner(System.in); // Scanner클래스의 객체를 생성
+		
+		String input = scanner.nextLine(); // 입력받은 내용을 input에 저장, nextFloat
+		int num = Integer.parseInt(input);
+		System.out.println("입력내용 :" + input);
+		System.out.printf("num=%d%n",num);
+		
+		
+		
+		// 정수형의 오버플로우 : if 4bit 2진수의 최댓값 1111에 값이 더해져 4bit의 범위가 넘어가는 것을 의미함. 
+		// 에러가 발생하지는 않지만 예상과 다른 결과를 얻기 때문에 충분한 크기의 타입을 선택해야함
+		// 최댓값 + 1 = 최솟값, 최솟값 - 1 = 최댓값
+		
+		
+		
+		// 타입간의 변환 방법
+		String s = "3";
+		
+		// 숫자->문자 : 숫자에 '0'을 더함
+		System.out.println((char)(3+'0'));  //(char)()을 안써주면 해당 문자의 아스키코드 번호가 출력됨		
+		// 문자->숫자 : 문자에 '0'을 뺌
+		System.out.println('5'-'0');
+		
+		// 숫자->문자열 : 숫자에 ""(빈문자열)을 더함
+		System.out.println(7+"");
+		
+		// 문자열->숫자 : Integer.parseInt() 또는 Double.parseDouble() 사용
+		System.out.println(Integer.parseInt(s));
+		
+		// 문자열->문자 : charAt(0) 사용
+		System.out.println(s.charAt(0));
+		
+		// 문자->문자열 : ""(빈문자열)을 더함
+		System.out.println('4'+"");
 		
 		
 		
