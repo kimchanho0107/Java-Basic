@@ -133,6 +133,59 @@ public class Operator {
 		
 		
 		// 비교 연산자
+		// 대소비교 연산자 < > <= >=
+		// 등가비교 연산자 == !=
+		
+		
+		// 문자열의 비교 equals()
+		String str = new String("abc");
+		boolean res = str.equals("abc");
+		System.out.println(res);
+		
+		
+		
+		// 논리 연산자 &&(or) ||(and)
+		
+		
+		
+		// 논리 부정 연산자 !
+		// 반복적으로 적용하면 참과 거짓이 차례대로 반복, 토글버튼 구현가능
+		boolean bool = true;
+		System.out.println(bool);
+		System.out.println(!bool);
+		
+		
+		
+		// 조건 연산자
+		// result = 좌항 ? x : y ;  result에 좌항이 참이면 x 거짓이면 y 대입
+		// if ( x > y )
+		//    result = x;
+		// else
+		//    result = y;  if문으로 작성하면 이렇게됨
+		
+		
+		
+		
+		// 대입 연산자  =
+		// 오른쪽에서 왼쪽으로 수행
+		// 변수 앞에 final 을 붙이면 상수가 됨 (한번 저장된 값은 바꿀 수 없음)
+		
+		
+		// 복합 대입 연산자
+		// i += 3;     i = i + 3;
+		// i -= 3;     i = i - 3;
+		// i *= 3;     i = i * 3;
+		// i /= 3;     i = i / 3;
+		// i %= 3;     i = i % 3;
+		// i <<= 3;     i = i << 3;
+		// i >>= 3;     i = i >> 3;
+		// i &= 3;     i = i & 3;
+		// i ^= 3;     i = i ^ 3;
+		// i |= 3;     i = i | 3;
+		// i *= 10 + j;     i = i * (10 + j);
+		
+		
+		
 		
 		
 		
