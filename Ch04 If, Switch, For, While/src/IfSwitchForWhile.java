@@ -180,6 +180,17 @@ public class IfSwitchForWhile {
 			증감식
 		}
 		*/
+		int z = 5;
+		while(z--!=0) {
+			System.out.println(z + "- I can do it.");
+		}
+		
+		int sum = 0;
+		int n = 0;
+		while(sum<=100) {
+			System.out.printf("%d - %d%n", n, sum);
+			sum += ++n;
+		}
 		
 		
 		
