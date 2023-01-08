@@ -195,6 +195,16 @@ public class IfSwitchForWhile {
 		
 		
 		
+		
+		// do-while 문
+        /*
+        do {
+            참일때 실행문 
+        } while (조건식);
+        
+        
+         */
+		
 	}
 
 }
