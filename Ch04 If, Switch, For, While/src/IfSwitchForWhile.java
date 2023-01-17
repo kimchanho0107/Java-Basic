@@ -143,8 +143,6 @@ public class IfSwitchForWhile {
 			System.out.println(rannum);
 		}
 		
-		
-		
 		// for문
 		/*
 		for (초기화; 조건식; 중감식){
