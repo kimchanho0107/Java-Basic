@@ -157,6 +157,8 @@ public class IfSwitchForWhile {
 
 		
 		
+		
+		
 		// 중첩 for문
 		// 5행 10열 별찍기
 		
